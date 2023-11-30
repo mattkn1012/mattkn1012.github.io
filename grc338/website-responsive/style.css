@@ -235,14 +235,14 @@ footer p {
 	}
 
 	div.container {
-		max-width: 190vh;
+		max-width: 85em;
 		margin: 0 auto;
 		background-color: white;
 	}
 
 	div.home-container {
 		min-height: 150vh;
-		max-width: 190vh;
+		max-width: 85em;
 		margin: 0 auto;
 		background-color: white;
 	}
