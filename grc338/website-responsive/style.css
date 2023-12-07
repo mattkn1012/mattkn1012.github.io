@@ -216,6 +216,9 @@ p.slogan {
 	font-family: sans-serif;
 	margin: 1em 0 2em;
 	color: #F3EEEA;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 0.2em;
+	padding: 0.4em
 }
 
 article p {
