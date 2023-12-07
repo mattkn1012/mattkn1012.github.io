@@ -91,7 +91,7 @@ video {
 
 
 div.home-container {
-	background: url(images/home-background.jpg) center center fixed;
+	background: url(images/slo_night.jpeg) center center fixed;
 	background-size: cover;
 	position: relative;
 	min-height: 100vh;
@@ -110,7 +110,9 @@ main {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: "elmhurst", serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 img {
@@ -119,10 +121,11 @@ img {
 	display: block;
 }
 
+
 header {
 	display: grid;
 	grid-template-columns: 20em auto;
-	background: #C5C5C5;
+	background: #EBE3D5;
 	padding: 1em 1em;
 }
 
@@ -146,6 +149,10 @@ h3 {
 	margin: 0.8em 0 0.5em;
 }
 
+h4 {
+	text-transform: uppercase;
+}
+
 a {
 	text-decoration: none;
 }
@@ -158,9 +165,9 @@ ul li {
 	list-style-type:none;
 }
 
-figure {
+/* figure {
 	margin-bottom: ____;
-}
+} */
 
 main.menu ul {
 	margin: 1em 0;
@@ -185,7 +192,7 @@ p.description {
 p.price {
 	grid-row: 1/2;
 	grid-column: 2/2;
-	color: #FF2923;
+	color: #776B5D;
 	text-align: right;
 	margin: 0em;
 }
@@ -197,18 +204,27 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #FFFF00;
-	background-color: #0000FF;
+	color: #F3EEEA;
+	background-color: #776B5D;
 	padding: 0.5em 0.4em 0.2em;
+	border-radius: 0.4em;
 }
-
 
 p.slogan {
 	font-size: 5em;
-	font-family: serif;
-	font-style:italic;
+	font-style: italic;
+	font-family: sans-serif;
 	margin: 1em 0 2em;
-	color: #FFFFFF;
+	color: #F3EEEA;
+}
+
+article p {
+	color: #776B5D;
+	font-size: 1.2em;
+}
+
+article address {
+	color: #776B5D;
 }
 
 footer {
@@ -218,11 +234,13 @@ footer {
 	height: 3rem;
 	box-sizing: border-box;
 	padding: 1em 0.5em;
-	background: #FFFF00;
+	background: #776B5D;
+	color: #F3EEEA;
 }
 
 address {
-	color: #FF8216;
+	color: #F3EEEA;
+	font-size: 1.2em;
 }
 
 footer p {
@@ -231,7 +249,7 @@ footer p {
 
 @media screen and (min-width: 60em) {
 	body {
-		background-color: red;
+		background-color: #B0A695;
 	}
 
 	div.container {
@@ -261,22 +279,20 @@ footer p {
 
 	nav ul li a {
 		font-size: 2em;
-		color: #FFFF00;
-		background-color: #0000FF;
 		padding: 0.5em 0.4em 0.2em;
 		margin: 0.4em;
 	}
 
 	nav ul li.selected a {
-		background-color: orange;
-		color: white;
+		background-color: #B0A695;
 	}
 
 	article {
+		padding: 1em 4em 2em;
 		width: 40em;
-		background-color: cyan;
 		margin: 1em auto;
-		max-width: 600px;
+		max-width: 60em;
+		border-radius: 1em;
 	}
 
 	main.menu ul {
